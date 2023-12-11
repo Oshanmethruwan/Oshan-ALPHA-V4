@@ -43,13 +43,15 @@
             "value":"Asia/Colombo"
         },
         "SUDO": {
-            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94) ඔබගෙ බොට් වෙනත් WhatsApp අංකයකට ක්‍රියා කර විමට මෙහි එම අංකය යොදන්න.",
+            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 94741507907
+            
+           (Sri lanka No. 94) ඔබගෙ බොට් වෙනත් WhatsApp අංකයකට ක්‍රියා කර විමට මෙහි එම අංකය යොදන්න.",
             "required": false
         },
         "LANGUAGE": {
             "description": "Enter your language. To enable Sinhala, type SI. or to enable English, type EN. මෙහි අවශ්‍ය නම් භාශාව වෙනස් කර ගන්න.",
             "required": true,
-            "value": "si"
+            "value": "in"
         },
         "WELCOME": {
             "description": "Welcome message type pp or gif යමෙකු group එක තුලට පැමිනි විට යොදන massage එකත් සමග ඔහුගෙ dp එක වැටිමට අවශ්‍ය නම් pp ලෙස යොදන්න, අප විසි ලබාදෙන gif එක අවශ්‍ය නම් gif ලෙස යොදන්න.",
@@ -68,12 +70,12 @@
         },
         "ANTIBAD": {
             "description": "Set True , Activate Anti-Bad word for your groups. අසභ්‍ය වචන කියුවිට group එක තුලින් පන්නා ඩැමිමට අව්ශ්‍ය නම් true ලෙස යොදන්න. ",
-            "required": true,
+            "required": ,
             "value": "false"
         },
         "ANTI_LINK": {
             "description": "Set True , Activate anti link for your groups. අන්වශ්‍ය link දැමු විට group එක තුලින් පන්නා ඩැමිමට අව්ශ්‍ය නම් true ලෙස යොදන්න. ",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "GROUP_RULES": {
@@ -88,7 +90,7 @@
         },
         "SEND_READ": {
             "description": "Need to show user whether bot message seen or not? ඔබගෙ බොට් massage කියවු බවට නොපෙනි විමට අවශ්‍ය නම්  false ලෙස යොදන්න. ",
-            "required": true,
+            "required": false,
             "value": "true"
         },
         "HEROKU": {
